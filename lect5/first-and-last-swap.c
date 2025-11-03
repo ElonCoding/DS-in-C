@@ -49,7 +49,6 @@ void printList(struct Node* head) {
 // Function to swap the first and last nodes of the linked list
 void swapFirstAndLast(struct Node** head) {
     if (*head == NULL || (*head)->next == NULL) {
-        // List is empty or has only one node, no swap needed
         return;
     }
 
